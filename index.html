@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Normal Form</h1>
+    <h3>This is a basic normal form to demonstrate HTML Forms.</h3>
+
+    <!-- Creating a form -->
+    <div class="form">
+        <form action="#">
+            <fieldset>
+                <legend>Personal Details</legend>
+                <p>
+                    <label>First Name: <input placeholder="Enter your First Name" type="text"></label>
+                </p>
+                <p>
+                    <label>Last Name: <input placeholder="Enter your Last Name" type="text"></label>
+                </p>
+                <p>
+                    Gender:
+                    <label><input type="radio" name="gender"> Male </label>
+                    <label><input type="radio" name="gender"> Female </label>
+
+                </p>
+                <p>
+                    <label>Email: <input type="email" placeholder="Enter your E-mail"></label>
+                </p>
+                <p>
+                    <label>Date of Birth: <input type="date" name="birthdate"></label>
+                </p>
+                <p>
+                    <label>Enter Address:
+                        <br>
+                        <textarea name="address" cols="30" rows="3" placeholder="Enter your Address here"></textarea>
+                    </label>
+                </p>
+                <p>
+                    <button type="submit">Submit</button>
+                </p>
+            </fieldset>
+        </form>
+    </div>
+</body>
+
+</html>

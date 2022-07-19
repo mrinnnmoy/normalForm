@@ -1,0 +1,35 @@
+h1{
+    color: #66ff66;
+    text-align: center;
+}
+h3{
+    color: #009900;
+    text-align: center;
+}
+fieldset{
+    border: 3px solid goldenrod;
+}
+legend{
+    color: crimson;
+}
+p{
+    color: #ff6666;
+}
+#gendertype{
+    color: aquamarine;
+}
+button{
+    background-color: skyblue;
+    border: 2px solid skyblue;
+    color: whitesmoke;
+    display: block;
+    margin: 0 auto;
+    border-radius: 20px;
+    cursor: pointer;
+    height: 40px;
+    width: 100px;
+}
+.form{
+    display: flex;
+    justify-content: center;
+}
